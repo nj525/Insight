@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace Insight
 {
+    [Serializable]
     public class InsightArgs
     {
         private readonly string[] _args;

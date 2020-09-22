@@ -80,7 +80,8 @@ namespace Insight
 
         //Only valid in the reply from the spawner. So it should be moved to another message
         public string UniqueID; //Guid
-        public string NetworkAddress; 
+        public string NetworkAddress;
+        public InsightArgs Arguments;
     }
 
     //Asks the server to gracefully stop
